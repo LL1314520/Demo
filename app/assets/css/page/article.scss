@@ -1,0 +1,44 @@
+@import "../color";
+@import "../mixin";
+
+.article-page {
+  width: 100%;
+  padding: 100px 0 50px 0;
+
+  .inner {
+    width: 1200px;
+    margin: 0 auto;
+
+    .a-right {
+      float: left;
+      width: 850px;
+      margin-left: 50px;
+
+      .title {
+        width: 100%;
+        font-size: 24px;
+        color: #322e2e;
+        line-height: 40px;
+        @include multi-line(2);
+      }
+
+      .date {
+        font-size: 14px;
+        color: #322e2e;
+        line-height: 30px;
+      }
+
+      .content {
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 40px;
+        line-height: 25px;
+
+        img {
+          max-width: 850px !important;
+        }
+      }
+    }
+  }
+
+}

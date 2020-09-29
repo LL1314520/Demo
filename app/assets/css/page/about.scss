@@ -1,0 +1,93 @@
+@import "../color";
+
+.about-page {
+  width: 100%;
+
+  .main-carousel {
+    height: 640px;
+
+    .ant-carousel {
+      height: 640px;
+
+      .item {
+        height: 640px;
+      }
+    }
+  }
+
+  .about-block {
+    .inner {
+      .s-title {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .about-banner {
+    height: 500px;
+    padding: 68px 0;
+    background: #001D26;
+    margin-top: 70px;
+
+    .inner {
+      height: 363px;
+      background: url("../../image/about/bg_about_banner.png") center no-repeat;
+      background-size: contain;
+      box-shadow: (0 12px 70px rgba(0, 0, 0, 0.5));
+    }
+  }
+
+
+  .join-us {
+    .inner {
+      .jobs {
+        margin-bottom: 50px;
+
+        .item {
+
+          font-size: 14px;
+          color: #333;
+          line-height: 30px;
+          font-weight: 500;
+
+          .title {
+            font-size: 24px;
+            line-height: 50px;
+          }
+
+          .sub-title {
+            position: relative;
+            margin-top: 20px;
+            line-height: 40px;
+
+            &:after {
+              position: absolute;
+              content: '';
+              width: 60%;
+              left: 0;
+              bottom: 0;
+              border-bottom: 1px dashed $font-dark;
+            }
+          }
+
+          ul {
+            width: 100%;
+            margin-top: 10px;
+
+            li {
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bar-join {
+    margin-top: 60px;
+    width: 100%;
+    height: 314px;
+    background: url("../../image/about/bar_join.jpg") 50% 50% no-repeat;
+  }
+
+}

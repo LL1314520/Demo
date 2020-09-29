@@ -1,0 +1,92 @@
+@import "color";
+
+.login-page {
+  width: 100%;
+  height: 100vh;
+  background: #F7F8FB url("../image/login/bg_login.png") 50% 50% no-repeat;
+  padding-top: 160px;
+
+  .logo {
+    margin: 0 auto;
+    width: 227px;
+    height: 102px;
+    background: url("../../assets/image/login/logo_login.png") center no-repeat;
+    background-size: contain;
+  }
+
+  .login-form {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 10px 37px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 31px;
+    padding: 50px;
+
+    .header {
+      position: relative;
+      height: 80px;
+      line-height: 80px;
+
+      p {
+        width: 200px;
+        float: left;
+        font-size: 18px;
+        color: $md-red;
+        font-weight: 500;
+      }
+
+      a {
+        float: right;
+
+      }
+
+    }
+
+    .ant-form-item {
+      margin-bottom: 20px;
+
+      .ant-input-group-addon {
+        width: 60px;
+      }
+
+      .ant-input-wrapper, .input, input {
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+      }
+
+      .yzm {
+        float: right;
+        width: 75px;
+        height: 30px;
+        cursor: pointer;
+        margin: 7px 0;
+      }
+
+      .a-reset-pwd {
+        float: right;
+        color: $font-dark;
+      }
+
+      .btn {
+        width: 400px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        background: #D3040F;
+        font-size: 24px;
+        color: #fff;
+        font-weight: 400;
+        box-shadow: 0 10px 24px 0 rgba(211, 4, 15, 0.30);
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    }
+
+
+
+  }
+
+}

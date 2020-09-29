@@ -1,0 +1,62 @@
+@import "../color";
+
+.practices-page {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+
+  .page-form {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+
+    .split {
+      clear: both;
+      height: 1px;
+      background: $bg-grey;
+    }
+
+    ul {
+
+      li {
+        width: 100%;
+        padding: 5px 15px;
+        min-height: 40px;
+        line-height: 30px;
+        font-size: 14px;
+        background: #fff;
+
+        .label {
+          width: 100%;
+          text-align: left;
+          font-size: 15px;
+          color: #333;
+          font-weight: 500;
+        }
+
+        .error {
+          color: $md-red;
+        }
+
+        .answer {
+          word-break: break-all;
+          line-height: 20px;
+        }
+
+
+      }
+    }
+
+  }
+
+  .btm-btn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid $line-grey;
+    padding: 10px 16px;
+    background: #fff;
+    text-align: right;
+  }
+}
